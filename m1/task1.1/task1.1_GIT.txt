@@ -1,0 +1,18 @@
+ed@deik:~/epam/DevOps_online_Kiev_2021Q4$ git reflog
+2158efc (HEAD -> master, origin/master, origin/develop, develop) HEAD@{0}: merge develop: Fast-forward
+a0c31fa HEAD@{1}: checkout: moving from develop to master
+2158efc (HEAD -> master, origin/master, origin/develop, develop) HEAD@{2}: commit (merge): resolved merged conflict by accepting incoming changes
+10a146c (origin/images, images) HEAD@{3}: merge images: Fast-forward
+c806173 HEAD@{4}: checkout: moving from styles to develop
+dd943fb (origin/styles, styles) HEAD@{5}: commit: with styles inside
+c2e4e2d HEAD@{6}: commit: styles.css
+c806173 HEAD@{7}: checkout: moving from develop to styles
+c806173 HEAD@{8}: checkout: moving from images to develop
+10a146c (origin/images, images) HEAD@{9}: commit: src pics inindex.html
+bf381dc HEAD@{10}: commit: dogs
+c806173 HEAD@{11}: checkout: moving from develop to images
+c806173 HEAD@{12}: commit: index.html
+a0c31fa HEAD@{13}: checkout: moving from master to develop
+a0c31fa HEAD@{14}: checkout: moving from develop to master
+a0c31fa HEAD@{15}: checkout: moving from master to develop
+a0c31fa HEAD@{16}: commit (initial): init commit
