@@ -1,10 +1,11 @@
 ### Task 2.2
 #### AWS create EC2, Lightsail, configure WordPress instance, S3, ECS
 1. Create and launch a Linux Virtual Machine with Amazon Lightsail.
-/DevOps_online_Kiev_2021Q4/m2/task2.2/1.png
-/DevOps_online_Kiev_2021Q4/m2/task2.2/1_2.png
+DevOps_online_Kiev_2021Q4/m2/task2.2/1.png
+
 
 2. Connect with Linux Virtual Machine
+/DevOps_online_Kiev_2021Q4/m2/task2.2/1_2.png
 
 3. Create EC2 instance with CentOS onboard
 /DevOps_online_Kiev_2021Q4/m2/task2.2/3.png
