@@ -5,38 +5,38 @@
 
 
 2. Connect with Linux Virtual Machine
-![2](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m2/1_2.png)
+![2](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m2/task2.2/1_2.png)
 
 3. Create EC2 instance with CentOS onboard
-![3](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m2/3.png)
-![3.1](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m2/3_1.png)
+![3](hhttps://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m2/task2.2/3.png)
+![3.1](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m2/task2.2/3_1.png)
 
 4. Createsnapshot for EC2 instance with CentOS
-![4](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m2/4.png)
+![4](hhttps://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m2/task2.2/4.png)
 
 5. Create additional volume Disk_D
-![5](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m2/5.png)
+![5](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m2/task2.2/5.png)
 
 6. Attach Disk_D instance with CentOS
-![6](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m2/6.png)
-![6.1](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m2/6_1.png)
+![6](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m2/task2.2/6.png)
+![6.1](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m2/task2.2/6_1.png)
 
 7. Create image from snapshot
-![7](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m2/7.png)
+![7](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m2/task2.2/7.png)
 
 8. Launch the third instance from backup created from snapshot
-![8](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m2/8.png)
+![8](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m2/task2.2/8.png)
 
 9. Detach Disk_D from the 2nd instance and attach disk_D to the new instance
-![9](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m2/9.png)
+![9](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m2/task2.2/9.png)
 
 10.Launch and configure a WordPress instance with Amazon Lightsail
-![10](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m2/10.png) 
+![10](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m2/task2.2/10.png) 
 
 11. S3, store and retrieve file
-![11](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m2/11.png)
-![11](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m2/11_1.png)
-![11](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m2/11_2.png)
+![11](hhttps://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m2/task2.2/11.png)
+![11](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m2/task2.2/11_1.png)
+![11](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m2/task2.2/11_2.png)
 
 12. AWS S3 CLI, configure, create user, upload files
 
@@ -119,4 +119,4 @@ latest: digest: sha256:6c111899f04053c86efd9dee24041e86cd9819bfd66629178354591cd
 ```
 
 15. Create a static website on Amazon S3, publicly available
-![15](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m2/15.png)
+![15](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m2/task2.2/15.png)
