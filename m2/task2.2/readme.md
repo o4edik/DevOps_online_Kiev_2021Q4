@@ -1,40 +1,51 @@
 ### Task 2.2
 #### AWS create EC2, Lightsail, configure WordPress instance, S3, ECS
 1. Create and launch a Linux Virtual Machine with Amazon Lightsail.
+
 ![1](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m2/task2.2/1.png)
 
 
 2. Connect with Linux Virtual Machine
+
 ![2](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m2/task2.2/1_2.png)
 
 3. Create EC2 instance with CentOS onboard
-![3](hhttps://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m2/task2.2/3.png)
+
+![3](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m2/task2.2/3.png)
 ![3.1](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m2/task2.2/3_1.png)
 
 4. Createsnapshot for EC2 instance with CentOS
-![4](hhttps://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m2/task2.2/4.png)
+
+![4](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m2/task2.2/4.png)
 
 5. Create additional volume Disk_D
+
 ![5](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m2/task2.2/5.png)
 
 6. Attach Disk_D instance with CentOS
+
 ![6](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m2/task2.2/6.png)
 ![6.1](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m2/task2.2/6_1.png)
 
 7. Create image from snapshot
+
 ![7](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m2/task2.2/7.png)
 
 8. Launch the third instance from backup created from snapshot
+
 ![8](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m2/task2.2/8.png)
 
 9. Detach Disk_D from the 2nd instance and attach disk_D to the new instance
+
 ![9](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m2/task2.2/9.png)
 
 10.Launch and configure a WordPress instance with Amazon Lightsail
+
 ![10](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m2/task2.2/10.png) 
 
 11. S3, store and retrieve file
-![11](hhttps://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m2/task2.2/11.png)
+
+![11](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m2/task2.2/11.png)
 ![11](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m2/task2.2/11_1.png)
 ![11](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m2/task2.2/11_2.png)
 
