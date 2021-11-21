@@ -57,7 +57,7 @@
 
 ![](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m3/task3.3/tracert.png)
 
-![](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m3/task3.3/tracert-rip.png)
+![](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m3/task3.3/tracert-rip2.png)
 
 
 #### TASK 3.4 Setting up  DHCP, DNS
