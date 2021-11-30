@@ -9,4 +9,4 @@
 
  - Create DB and tables
 
- ![] (m4/create db sales.png)    
+ ![] (https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m4/create%20db%20sales.png)    
