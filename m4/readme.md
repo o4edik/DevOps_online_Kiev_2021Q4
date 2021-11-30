@@ -57,10 +57,14 @@ For backup and restore DB I'm going to use "Workbench"
 ![](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m4/connect%20to%20rds.png)
 
 - **Execute SELECT operator similar step 6**
+
 ![](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m4/15.png)
 
 - **Create the dump of your database**
 ![](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m4/exportRDSbase.png)
+
+
+##### PART 3
 
 - **Create an Amazon DynamoDB table**
 ![](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m4/DynDB_table.png)
