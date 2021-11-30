@@ -40,6 +40,7 @@ For backup and restore DB I'm going to use "Workbench"
 ![](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m4/exported_log.png)
 
 - **Delete the table and/or part of the data in the table**
+
 ![](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m4/drop_table_orders.png)
 
 - **Restore your database**
@@ -47,3 +48,29 @@ For backup and restore DB I'm going to use "Workbench"
 ![](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m4/importDBvia_workbench.png)
 
 
+- **Transfer your local database to RDS AWS**
+
+![](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m4/importDBvia_workbench.png)
+
+- **Connect to your database**
+
+![](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m4/connect%20to%20rds.png)
+
+- **Execute SELECT operator similar step 6**
+![](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m4/15.png)
+
+- **Create the dump of your database**
+![](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m4/exportRDSbase.png)
+
+- **Create an Amazon DynamoDB table**
+![](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m4/DynDB_table.png)
+
+- **Enter data into an Amazon DynamoDB table**
+![](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m4/added_items_to_DynDB.png)
+
+- **Query an Amazon DynamoDB table using Query and Scan**
+![](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m4/query_DynDB.png)
+![](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m4/scan_DynDB.png)
+
+
+That's it !
