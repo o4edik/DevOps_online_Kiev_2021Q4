@@ -47,6 +47,7 @@ specific sequence of characters**
 **4. Give examples of listing directories using different keys. Explain the information displayed on the terminal using the -l and -a switches**
 
 - command ls -a, outputs list of all files include hidden
+
 ![](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m5/task5.1/4-2%20ls%20-a.png)
 
 - command ls -l , outputs list of files with detailed information about them
