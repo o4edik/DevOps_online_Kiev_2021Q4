@@ -4,7 +4,7 @@
 
 **Determine the users registered in the system**
  - Using commands "finger" I've got user information
- ![]()
+ ![](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m5/task5.1/info%20about%20me.png)
 
  **Change personal information about yourself**
   - using command "chfn" I've got to change the personal info about me
