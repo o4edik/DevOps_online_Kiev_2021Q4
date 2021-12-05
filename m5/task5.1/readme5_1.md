@@ -2,15 +2,15 @@
 #### Taks 5.1
 ##### Part 1
 
-**Determine the users registered in the system**
+**1. Determine the users registered in the system**
  - Using commands "finger" I've got user information
  ![](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m5/task5.1/info%20about%20me.png)
 
- **Change personal information about yourself**
+ **2. Change personal information about yourself**
   - using command "chfn" I've got to change the personal info about me
-  ![]()
+  ![](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m5/task5.1/4change%20info.png)
 
-  **Get help on the "man" and "info" commands, define and describe any two
+  **3. Get help on the "man" and "info" commands, define and describe any two
 keys for these commands**
  - "man" command, key -K  search for text in all pages
  - "man" command, key -w  print physical location of man page(s)
@@ -19,28 +19,29 @@ keys for these commands**
 
 
 
- **List the contents of the home directory using the ls command, define its files
+ **4. List the contents of the home directory using the ls command, define its files
 and directories**
  - 
- ![]()
+ ![](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m5/task5.1/8ls.png)
 
 
  #### Part 2
 
- **Examine the tree command.Display all files that contain a character c, or files that contain a
+ **1. Examine the tree command.Display all files that contain a character c, or files that contain a
 specific sequence of characters**
+ - showed up all files contains sequence of chars "cess"
 
-![]()
+![](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m5/task5.1/2-1tree%20grep%20cess.png)
 
-**What command can be used to determine the type of file**
+**2. What command can be used to determine the type of file**
   - 
 ![]()
 
-**How can you go back to your home directory from anywhere in the filesystem?**
+**3. How can you go back to your home directory from anywhere in the filesystem?**
  - Using "cd ~" I can get to the home directory from anywhere
  ![]()
 
-**Give examples of listing directories using different keys. Explain the information displayed on the terminal using the -l and -a switches**
+**4. Give examples of listing directories using different keys. Explain the information displayed on the terminal using the -l and -a switches**
 
 - command ls -a, outputs list of all files include hidden
 ![]()
@@ -51,7 +52,7 @@ specific sequence of characters**
 - command ls -la -h, outputs list of files including hidden with detailed information and shows info in human friendly format
 ![]()
 
-**Perform the following sequence of operations:**
+**5. Perform the following sequence of operations:**
 - create a subdirectory in the home directory
 ![]()
 
@@ -82,7 +83,7 @@ ed@deik:~$ rm -r test
 ed@deik:~$ rm dir.txt
 ```
 
-**Perform the following sequence of operations**
+**6. Perform the following sequence of operations**
 - create a subdirectory test in the home directory
 ![]()
 
