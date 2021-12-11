@@ -35,7 +35,7 @@ parameters required to create a user?**
 **9) What commands and keys should be used to lock and unlock a user account?**
   - We use <passwd> or <usermod> with <-l> for lock and <-u> for unlock file
 
-![]()  
+![](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m5/task5.2/locked%20user.png)  
 
 **10) How to remove a user's password and provide him with a password-free
 login for subsequent password change?**
@@ -46,7 +46,7 @@ login for subsequent password change?**
 the information columns displayed on the terminal**
  - For getting information about directory we use <ls -la -h>
 
-![11]()
+![11](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m5/task5.2/11.png)
 
     - The file type = directory
     - The file permissions = rwxr-xr-x
@@ -57,7 +57,7 @@ the information columns displayed on the terminal**
     - Date and Time of last changes = 08/11/2021
     - File name = Desktop
 
-![11-1]()
+![11-1](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m5/task5.2/11-1.png)
 
 **12) What access rights exist and for whom (i. e., describe the main roles)?
 Briefly describe the acronym for access rights**
@@ -77,34 +77,34 @@ Briefly describe the acronym for access rights**
 
   - For change onwer of file we use <chown>
 
-  ![14-1]()
+  ![14-1](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m5/task5.2/14-1.png)
 
-  ![14-2]()
+  ![14-2](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m5/task5.2/14-2.png)
 
   - For change mode of access to thr file we use <chmod>
 
-  ![14-2]() 
+  ![14-2](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m5/task5.2/14-2.png) 
 
-  ![14-3]()
+  ![14-3](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m5/task5.2/14-3.png)
 
 
 **15) What is an example of octal representation of access rights? Describe the umask command**
 
  - Octal representation of access rights is when we using figures instead of keys(-r, -w,-x), where r=4, w=2, x=1, no permision =0. Example below shows 752 means that  for user 7 =rwx, for group 5=r-x, for all 2=w
 
- ![14-3]()
+ ![14-3](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m5/task5.2/14-3.png)
 
 **16) Give definitions of sticky bits and mechanism of identifier substitution. Give an example of files and directories with these attributes**
 
  - A Sticky bit is a permission bit that is set on a file or a directory that lets only the owner of the file/directory or the root user to delete or rename the file. No other user is given privileges to delete the file created by some other user
 
-![16-1]()
+![16-1](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m5/task5.2/16-1.png)
 
 **17) What file attributes should be present in the command script?**
 
  - Command script file should has attributes like this -rwxr-xr-x, extension .sh,and stsrts with string #!/bin/bash
 
-![17-1]() 
+![17-1](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m5/task5.2/17-1.png) 
 
 
 
