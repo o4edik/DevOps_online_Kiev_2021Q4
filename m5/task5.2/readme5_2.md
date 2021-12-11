@@ -75,13 +75,13 @@ Briefly describe the acronym for access rights**
 
  **14) What commands are used to change the owner of a file (directory), as well as the mode of access to the file? Give examples, demonstrate on the terminal**
 
-  - For change onwer of file we use <chown>
+  - For change onwer of file we use 'chown'
 
   ![14-1](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m5/task5.2/14-1.png)
 
   ![14-2](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m5/task5.2/14-2.png)
 
-  - For change mode of access to thr file we use <chmod>
+  - For change mode of access to thr file we use 'chmod'
 
   ![14-2](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m5/task5.2/14-2.png) 
 
