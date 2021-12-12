@@ -67,7 +67,10 @@ What condition are they in, or can they be arriving in?
 
  - The "top" command displays us the next information: PID, PR(priority)=, NI(nice), VIRT amount of virtual memory used by process, RES amount of resident memory used by the process, SHR amount of shared memory used by the process, S status of the process, %CPU the share of CPU time used by the process since the last update, %MEM the share of physical memory used, TIME+  total CPU time used by the task in hundredths of a second, COMMAND Content command name or command line 
 
-12. Display the processes of the specific user using the top command.
+11. Display the processes of the specific user using the top command.
+
+ ![11]()
+
 12. What interactive commands can be used to control the top command? Give a couple of
 examples.
 13. Sort the contents of the processes window using various parameters (for example, the
