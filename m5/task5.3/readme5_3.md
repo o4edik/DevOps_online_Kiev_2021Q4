@@ -21,7 +21,7 @@ process.
 
  - For highlighting current process we use "pstree -h"
 
- ![2]()
+ ![2](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m5/task5.3/2.png)
 
 3. What is a proc file system?
 
@@ -32,20 +32,20 @@ It contains useful information about the processes that are currently running, i
 
  - For getting info about processor we'll use "lscpu" as shown below
 
- ![4]()
+ ![4](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m5/task5.3/4.png)
 
 5. Use the ps command to get information about the process. The information should be as
 follows: the owner of the process, the arguments with which the process was launched for
 execution, the group owner of this process, etc.
 
-![5]()
+![5](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m5/task5.3/5.png)
 
 
 6. How to define kernel processes and user processes?
 
  - We can define them via UID as shown delow UID = 1000 that means it belongs to user, as we know kernelprocesses has an UID range 1 -100 
 
- ![5]()
+ ![5](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m5/task5.3/5.png)
 
 7. Print the list of processes to the terminal. Briefly describe the statuses of the processes.
 What condition are they in, or can they be arriving in?
@@ -57,7 +57,7 @@ What condition are they in, or can they be arriving in?
 8. Display only the processes of a specific user.
  - for show processes of a specific user name "ed" we will take "top -u ed"
 
- ![8]()
+ ![8](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m5/task5.3/8.png)
 
 9. What utilities can be used to analyze existing running tasks (by analyzing the help for the ps command)?
 
@@ -69,7 +69,7 @@ What condition are they in, or can they be arriving in?
 
 11. Display the processes of the specific user using the top command.
 
- ![11]()
+ ![11](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m5/task5.3/11.png)
 
 12. What interactive commands can be used to control the top command? Give a couple of
 examples.
@@ -77,11 +77,11 @@ examples.
 - Some interactive commands that helps our life with "top":
     - "f" , Fields management  
 
-![13-1]()
+![13-1](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m5/task5.3/13-1.jpg)
 
     - "z", Switches the current window between your last used color scheme and the older form of black-on-white or white-on-black.
 
-![13-2]()
+![13-2](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m5/task5.3/13-2.jpg)
 
    - "c", This command will be honored whether or not the COMMAND column is currently visible. Later, should that field come into view, the change you applied will be seen.
 
@@ -90,9 +90,9 @@ examples.
 
   - Using "f" Field Management we will sort output of "top" command by %CPU and PID
 
-![14-1]()
+![14-1](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m5/task5.3/14-1.jpg)
 
-![14-2]() 
+![14-2](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m5/task5.3/14-2.jpg) 
 
 14. Concept of priority, what commands are used to set priority?
 
@@ -114,14 +114,14 @@ demonstrate the process control mechanism with fg, bg.
 
   - jobs it's a process working on a background, using "jobs" command we can see how the process doing
 
-![18-1]()
+![18-1](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m5/task5.3/18-1.jpg)
 
   - Command "fg" restores stopped process in foreground, "bg" restores stopped processes in background
   
   - Command "nohup" is a command that ignores the HUP signal. HUP signal it's basically a signal that is delivered to a process when its associated shell is terminated
   - Command "sleep" allows us to delay something for a period of time i.e. "sleep 5; fg" will restore stopped process to foreground with 5sek delay
 
-![18-1]()
+![18-1](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m5/task5.3/18-1.jpg)
 
 ##### Part 2
 
