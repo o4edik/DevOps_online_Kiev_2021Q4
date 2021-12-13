@@ -73,21 +73,68 @@ What condition are they in, or can they be arriving in?
 
 12. What interactive commands can be used to control the top command? Give a couple of
 examples.
-13. Sort the contents of the processes window using various parameters (for example, the
-amount of processor time taken up, etc.)
+
+- Some interactive commands that helps our life with "top":
+    - "f" , Fields management  
+
+![13-1]()
+
+    - "z", Switches the current window between your last used color scheme and the older form of black-on-white or white-on-black.
+
+![13-2]()
+
+   - "c", This command will be honored whether or not the COMMAND column is currently visible. Later, should that field come into view, the change you applied will be seen.
+
+
+13. Sort the contents of the processes window using various parameters (for example, the amount of processor time taken up, etc.)
+
+  - Using "f" Field Management we will sort output of "top" command by %CPU and PID
+
+![14-1]()
+
+![14-2]() 
+
 14. Concept of priority, what commands are used to set priority?
+
+  - For setting priority we are using "nice" and "renice" commands
+
 15. Can I change the priority of a process using the top command? If so, how?
+
+  - We can change the priority of a process using "top" command and press "r" enter to the mode where we'll be prompted for PID and nice value. Positive nice value decreasing priority and vice versa negative value is decreasing priority
+
+
 16. Examine the kill command. How to send with the kill command
 process control signal? Give an example of commonly used signals.
+
+  - Signals can be sent in three ways: By number (e.g. -9); With SIG prefix (e.g. -SIGkill); Without SIG prefix (e.g. -kill)
+  - Most commonly  used signals are: SIGKILL(9); SIGINT(2) killing foreground process; SIGSTOP(19) Stop process; SIGTERM(15) Termination signal; 
+
 17. Commands jobs, fg, bg, nohup. What are they for? Use the sleep, yes command to
 demonstrate the process control mechanism with fg, bg.
+
+  - jobs it's a process working on a background, using "jobs" command we can see how the process doing
+
+![18-1]()
+
+  - Command "fg" restores stopped process in foreground, "bg" restores stopped processes in background
+  
+  - Command "nohup" is a command that ignores the HUP signal. HUP signal it's basically a signal that is delivered to a process when its associated shell is terminated
+  - Command "sleep" allows us to delay something for a period of time i.e. "sleep 5; fg" will restore stopped process to foreground with 5sek delay
+
+![18-1]()
 
 ##### Part 2
 
 1. Check the implementability of the most frequently used OPENSSH commands in the MS
 Windows operating system. (Description of the expected result of the commands +
 screenshots: command – result should be presented)
+
+
+
 2. Implement basic SSH settings to increase the security of the client-server connection (at least
+
+ - Use SSH Protocol Version 2; Avoid Port 22; Reject Connection Requests With No Passwords; Use SSH Keys Instead of Passwords; Disable Password Authentication Altogether; Disable X11 Forwarding; Set an Idle Timeout Value
+
 3. List the options for choosing keys for encryption in SSH. Implement 3 of them.
 4. Implement port forwarding for the SSH client from the host machine to the guest Linux
 virtual machine behind NAT.
