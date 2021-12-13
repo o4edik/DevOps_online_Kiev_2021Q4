@@ -5,15 +5,15 @@
 1. How many states could has a process in Linux?
 
  - It could be have next  states:
-               D    uninterruptible sleep (usually IO)
-               I    Idle kernel thread
-               R    running or runnable (on run queue)
-               S    interruptible sleep (waiting for an event to complete)
-               T    stopped by job control signal
-               t    stopped by debugger during the tracing
-               W    paging (not valid since the 2.6.xx kernel)
-               X    dead (should never be seen)
-               Z    defunct ("zombie") process, terminated but not reaped by its parent
+              - D    uninterruptible sleep (usually IO)
+              - I    Idle kernel thread
+              - R    running or runnable (on run queue)
+              - S    interruptible sleep (waiting for an event to complete)
+              - T    stopped by job control signal
+              - t    stopped by debugger during the tracing
+              - W    paging (not valid since the 2.6.xx kernel)
+              - X    dead (should never be seen)
+              - Z    defunct ("zombie") process, terminated but not reaped by its parent
 
 
 2. Examine the pstree command. Make output (highlight) the chain (ancestors) of the current
@@ -61,7 +61,7 @@ What condition are they in, or can they be arriving in?
 
 9. What utilities can be used to analyze existing running tasks (by analyzing the help for the ps command)?
 
- - 
+ - For analyze running tasks we can use: ps, top(htop)
 
 10. What information does top command display?
 
@@ -119,24 +119,12 @@ demonstrate the process control mechanism with fg, bg.
   - Command "fg" restores stopped process in foreground, "bg" restores stopped processes in background
   
   - Command "nohup" is a command that ignores the HUP signal. HUP signal it's basically a signal that is delivered to a process when its associated shell is terminated
-  - Command "sleep" allows us to delay something for a period of time i.e. "sleep 5; fg" will restore stopped process to foreground with 5sek delay
+  - Command "sleep" allows us to delay something for a period of time i.e. "sleep 5; fg" will restore stopped process to foreground with 5sec delay
 
 ![18-1](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m5/task5.3/18-1.jpg)
 
 ##### Part 2
 
-1. Check the implementability of the most frequently used OPENSSH commands in the MS
-Windows operating system. (Description of the expected result of the commands +
-screenshots: command – result should be presented)
-
-
-
-2. Implement basic SSH settings to increase the security of the client-server connection (at least
+1. Implement basic SSH settings to increase the security of the client-server connection (at least
 
  - Use SSH Protocol Version 2; Avoid Port 22; Reject Connection Requests With No Passwords; Use SSH Keys Instead of Passwords; Disable Password Authentication Altogether; Disable X11 Forwarding; Set an Idle Timeout Value
-
-3. List the options for choosing keys for encryption in SSH. Implement 3 of them.
-4. Implement port forwarding for the SSH client from the host machine to the guest Linux
-virtual machine behind NAT.
-5*. Intercept (capture) traffic (tcpdump, wireshark) while authorizing the remote client on the
-server using ssh, telnet, rlogin. Analyze the result.
