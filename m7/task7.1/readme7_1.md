@@ -69,7 +69,7 @@ tar -cvf /$storedir/$filename $backpdir
 echo backup finished: $filename 
 ```
 
- - ading next string into the crontab file
+ - adding next string into the crontab file
 
 ```
 1 * * * * sh ~/epam/DevOps_online_Kiev_2021Q4/m7/task7.1/c.sh
