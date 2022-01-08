@@ -54,4 +54,23 @@ cat $log | grep 'robots*' -v |\awk '{print $1 "\t " $12 }'|sort|uniq -c|sort -nr
 C. Create a data backup script that takes the following data as parameters:
 
 ```
+#!/bin/bash
+#What we'll backup
+backpdir=/var/log
+#Where we'll backup
+storedir=~/bckp
+# Compress the folder with foldername + date and take backup
+filename="backup_`date +%d`_`date +%m`_`date +%Y`.tar"
+mkdir ~/bckp && echo backup dir is created
+sleep 2
+# Create compressed file
+tar -cvf /$storedir/$filename $backpdir
 
+echo backup finished: $filename 
+```
+
+ - ading next string into the crontab file
+
+```
+1 * * * * sh ~/epam/DevOps_online_Kiev_2021Q4/m7/task7.1/c.sh
+```

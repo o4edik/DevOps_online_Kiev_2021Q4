@@ -1,5 +1,14 @@
 #!/bin/bash
-log=apache_logs.txt
-echo From which ip were the most requests?
-awk '{print $1}' $log |sort|uniq -c|sort -nr|head -n 1
+#What we'll backup
+backpdir=/var/log
+#Where we'll backup
+storedir=~/bckp
+# Compress the folder with foldername + date and take backup
+filename="backup_`date +%d`_`date +%m`_`date +%Y`.tar"
+mkdir ~/bckp && echo backup dir is created
+sleep 2
+# Create compressed file
+tar -cvf /$storedir/$filename $backpdir
+
+echo backup finished: $filename
 
