@@ -1,3 +1,6 @@
 [submodule "final-project/spring-petclinic"]
 	path = final-project/spring-petclinic
 	url = git@github.com:spring-projects/spring-petclinic.git
+[submodule "m13/QuizZz"]
+	path = m13/QuizZz
+	url = git@github.com:oojorgeoo89/QuizZz.git
