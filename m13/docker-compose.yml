@@ -1,0 +1,24 @@
+version:'3.8'
+services:
+    db:
+     image:mysql:5.7
+     volumes:
+     - db_data:/var/lib/mysql
+     restart: always
+     environment:
+       MYSQL_PASSWORD: Password
+       MYSQL_USER: root
+    spring:
+      depends_on: db
+      image: maven:latest
+      ports:
+       - "8000:80"
+      restart: always
+      environment:
+        SPRING_DB_HOST: db:3306
+        SPRING_DB_USER: root
+        SPRING_DB_PASSWORD: Password
+        SPRING_DB_NAME: QuizZz
+
+
+https://gitlab.com/kiykomi/final_project

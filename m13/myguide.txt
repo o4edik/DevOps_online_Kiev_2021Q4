@@ -1,0 +1,16 @@
+
+
+
+1. Create docker compose-file for provosioning dev environments consist with 
+   1 maven docker container and 1 MySql docker container with settings accordingly to documentation
+2. Create .tf file for provosioning infrustructe on AWS:
+   EC2 + linux + docker incl docker composer
+3. Make JenJob for compile project in mavendocker
+4. Test connection with db and check if app is working,
+   if everything is OK --> make an image and push to docker hub
+5. Make db docker image from current docker container and push it dockerhub
+
+6. Make JenJob that provision and up an infrastructure according .tf file
+   and run both dockercontainers maven and db from pushed there,also down;oad and run FakeSMTP server http://nilhcem.com/FakeSMTP/
+
+7. Using public IP provided by TF check if app is working   
