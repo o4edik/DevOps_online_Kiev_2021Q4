@@ -7,10 +7,16 @@ pipeline {
         }
     }
     stages {
+        stage('Checkout') {
+            steps {
+                git branch: 'main',
+                    url: 'https://github.com/o4edik/petclinic.git'
+            }
+        }
         stage('Build') {
             steps {
                 sh ''' 
-                sudo usermod -a -G docker jenkins
+                sudo usermod -aG docker jenkins
                 git clone https://github.com/spring-projects/spring-petclinic.git
                 cd spring-petclinic
                 ./mvnw package
