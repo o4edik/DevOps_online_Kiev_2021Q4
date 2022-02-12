@@ -4,3 +4,6 @@
 [submodule "m13/QuizZz"]
 	path = m13/QuizZz
 	url = git@github.com:oojorgeoo89/QuizZz.git
+[submodule "m13/m13/petclinic"]
+	path = m13/m13/petclinic
+	url = https://github.com/o4edik/petclinic.git
