@@ -8,11 +8,13 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'sudo usermod -a -G docker jenkins'
-                sh 'git clone https://github.com/spring-projects/spring-petclinic.git'
-                sh 'cd spring-petclinic'
-                sh './mvnw package'
-                sh 'java -jar target/*.jar'
+                sh ''' 
+                sudo usermod -a -G docker jenkins
+                git clone https://github.com/spring-projects/spring-petclinic.git
+                cd spring-petclinic
+                ./mvnw package
+                java -jar target/*.jar
+                sh '''
             }
         }
     }
