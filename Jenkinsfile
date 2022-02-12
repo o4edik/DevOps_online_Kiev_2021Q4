@@ -17,8 +17,7 @@ pipeline {
             steps {
                 sh ''' 
                 sudo usermod -aG docker jenkins
-                git clone https://github.com/spring-projects/spring-petclinic.git
-                cd spring-petclinic
+                cd petclinic
                 ./mvnw package
                 java -jar target/*.jar
                 sh '''
