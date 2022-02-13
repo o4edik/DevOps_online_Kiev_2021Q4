@@ -1,10 +1,10 @@
 pipeline {
-    agent {
-        docker { 
-            image 'maven:latest' 
-            args '-v $HOME/.m2:/root/.m2'
-            args '-p8888:8080'
-        }
+    agent { any}
+        // docker { 
+        //     image 'maven:latest' 
+        //     args '-v $HOME/.m2:/root/.m2'
+        //     args '-p8888:8080'
+        // }
     }
     stages {
         stage('Checkout') {
