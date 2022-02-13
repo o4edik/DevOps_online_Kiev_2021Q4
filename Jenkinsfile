@@ -1,27 +1,49 @@
 pipeline {
     agent {
-        docker { 
-            image 'maven:latest' 
-            args '-v $HOME/.m2:/root/.m2'
-            args '-p8888:8080'
-        }
+        docker { image 'maven:latest' }
     }
+
     stages {
-        stage('Checkout') {
+        stage('Git checkout') {
             steps {
-                git branch: 'main',
-                    url: 'https://github.com/o4edik/petclinic.git'
+                sh 'docker --version'
+
+            }
+
+        }
+
+        stage('Delete workspace defore build starts') {
+            steps {
+
             }
         }
-        stage('Build') {
+        stage('Test') {
             steps {
-                sh ''' 
-                sudo usermod -aG docker jenkins
-                cd petclinic
-                ./mvnw package
-                java -jar target/*.jar
-                sh '''
+
+            }
+
+        }
+        stage('Build docker image') {
+            steps {
+
             }
         }
+
+        stage('push dockerimage to dockerhub') {
+            steps {
+
+            }
+        }
+        stage('Create AWS instance using terraform') {
+            steps {
+
+            }
+        }
+        stage('Run container on AWS using Ansuble') {
+            steps {
+
+            }
+        }
+    }    
     }
 }
