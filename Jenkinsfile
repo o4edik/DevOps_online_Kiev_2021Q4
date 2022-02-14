@@ -6,8 +6,6 @@ pipeline {
                 sh 'mvn --version'
             }
         }
-    } 
-    stages {
         stage('build') {
             steps {
                 sh './mvnw spring-boot:run'
