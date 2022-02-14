@@ -1,49 +1,10 @@
 pipeline {
-    agent {
-        docker { image 'maven:latest' }
-    }
-
+    agent { docker { image 'maven:3.8.4-openjdk-11-slim' } }
     stages {
-        stage('Git checkout') {
+        stage('build') {
             steps {
-                sh 'docker --version'
-
-            }
-
-        }
-
-        stage('Delete workspace defore build starts') {
-            steps {
-
+                sh 'mvn --version'
             }
         }
-        stage('Test') {
-            steps {
-
-            }
-
-        }
-        stage('Build docker image') {
-            steps {
-
-            }
-        }
-
-        stage('push dockerimage to dockerhub') {
-            steps {
-
-            }
-        }
-        stage('Create AWS instance using terraform') {
-            steps {
-
-            }
-        }
-        stage('Run container on AWS using Ansuble') {
-            steps {
-
-            }
-        }
-    }    
     }
 }
