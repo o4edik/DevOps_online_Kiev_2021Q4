@@ -1,10 +1,17 @@
 pipeline {
     agent { docker { image 'maven:3.8.4-openjdk-11-slim' } }
     stages {
-        stage('build') {
+        stage('check version') {
             steps {
                 sh 'mvn --version'
             }
         }
-    }
+    } 
+    stages {
+        stage('build') {
+            steps {
+                sh './mvnw spring-boot:run'
+            }
+        }
+    } 
 }
