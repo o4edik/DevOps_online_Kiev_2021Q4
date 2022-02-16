@@ -34,3 +34,8 @@
 ### 11. Docker
 
 ### 12. Ansible
+
+### 13. Final project
+![13](Git repo: https://github.com/o4edik/final-task)
+![13.1](Jenkins Pipeline: https://github.com/o4edik/final-task/blob/master/Jenkinsfile)
+![13.2](Terraform, Ansible: https://github.com/o4edik/final-task/tree/master/prod)
