@@ -1,4 +1,8 @@
-#### Statement of tasks from course
+## Statement of tasks from course
+
+### Project Presentation
+![pdf](https://github.com/o4edik/DevOps_online_Kiev_2021Q4/blob/master/m13/EPAM.DevOps%20ext%20course.pdf)
+
 
 ### 1. DevOps Introduction
 
@@ -36,6 +40,7 @@
 ### 12. Ansible
 
 ### 13. Final project
-[Git repo:](https://github.com/o4edik/final-task).
-[Jenkins Pipeline:](https://github.com/o4edik/final-task/blob/master/Jenkinsfile).
-[Terraform, Ansible:](https://github.com/o4edik/final-task/tree/master/prod).
+#### Below you can find links to neccessary files
+[ Main Gitrepo| ](https://github.com/o4edik/final-task).
+[ Jenkins Pipeline| ](https://github.com/o4edik/final-task/blob/master/Jenkinsfile).
+[ Terraform, Ansible| ](https://github.com/o4edik/final-task/tree/master/prod).
